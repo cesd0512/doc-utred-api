@@ -294,5 +294,6 @@ Request:
     "context": {}
 }
 ```
+
 ``` Tener en cuenta que existe un limite por defecto de 1000 registros a retornar si se desea establecer un límite añadir al objeto el parametro limit x, donde x es un número entero que define el límite de registros a extraer en la petición.
 ```
