@@ -78,7 +78,7 @@ method: POST
 uri: /DB/search
 
 ```
-
+```
 Request:
 
 {
@@ -86,7 +86,8 @@ Request:
     "domain": [],
     "context": {}
 }
-
+```
+```
 Response:
 
 [
@@ -96,7 +97,7 @@ Response:
         "rec_name": "FUNDACION AVANZAR FOS - SEDE BARBOSA"
     }
 ]
-
+```
 
 #### Obtener listado de detalles causales
 
@@ -108,7 +109,7 @@ method: POST
 uri: /DB/search
 
 ```
-
+```
 Request:
 
 {
@@ -116,7 +117,8 @@ Request:
     "domain": [],
     "context": {}
 }
-
+```
+```
 Response:
 
 [
@@ -132,7 +134,7 @@ Response:
     }
     ...
 ]
-
+```
 
 #### Obtener listado de receptores
 
@@ -144,7 +146,7 @@ method: POST
 uri: /DB/search
 
 ```
-
+```
 Request:
 
 {
@@ -152,7 +154,8 @@ Request:
     "domain": [],
     "context": {}
 }
-
+```
+```
 Response:
 
 [
@@ -168,7 +171,7 @@ Response:
     },
     ...
 ]
-
+```
 
 #### Creación de PQR
 
@@ -202,8 +205,7 @@ Los campos Object son:
 	* attach_customer_1: (texto)
 	* attach_customer_2: (texto)
 
-
-
+```
 Request:
 
 {
@@ -226,7 +228,8 @@ Request:
     }
 
 }
-
+```
+```
 Response 200 (exitoso):
 
 {
@@ -270,3 +273,4 @@ Response 200 (exitoso):
     "response": null,
     "state": "draft"
 }
+```
