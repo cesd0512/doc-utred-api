@@ -230,7 +230,7 @@ Request:
 }
 ```
 ```
-Response 200 (exitoso):
+Response 200:
 
 {
     "address": "CALLE 12 #34-21",
