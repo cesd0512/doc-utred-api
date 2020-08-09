@@ -68,7 +68,7 @@ Nota:
 Tener en cuenta el estado de afiliación del usuario, debe estar en estado activo para que la creación de una pqr sea exitosa.
 
 
-#### Obtener listado de Proveedores de Salud registrados
+#### Obtener listado de proveedores de salud
 
 Esta ruta retorna la información correspondiente a los proveedores de salud con sus respectivos ids:
 
@@ -198,9 +198,9 @@ Los campos Object son:
 	* phone: Teléfono del usuario(texto)
 	* email: Email donde recibira la noticación y respuesta (texto)
 	* address: (texto)
-	* health_provider: id del proveedor de salud obtenido de la consulta "Obtener listado de Proveedores de salud registrados"
-	* case: id del detalle causal obtenido de la consulta "Obtener listado de detalles causales"
-	* receiver: id del receptor obtenido de la consulta "Obtener listado de receptores"
+	* health_provider: id del proveedor de salud obtenido de la consulta "Obtener listado de Proveedores de salud registrados" - (entero)
+	* case: id del detalle causal obtenido de la consulta "Obtener listado de detalles causales" - (entero)
+	* receiver: id del receptor obtenido de la consulta "Obtener listado de receptores" - (entero)
 	* description: descripción o detalle de la petición colocada (texto)
 	* attach_customer_1: (texto)
 	* attach_customer_2: (texto)
