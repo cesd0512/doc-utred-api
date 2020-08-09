@@ -33,7 +33,7 @@ method: POST
 uri: /DB/search
 
 ```
-
+```
 Request:
 
 {
@@ -41,11 +41,11 @@ Request:
     "domain": [["id_number", "=", "5711170"]],
     "context": {}
 }
-
+```
 ``` Donde el número en referencia 5711170 es la identificación del usuario
     El id_number debe ser sin puntos y sin comas
 ```
-
+```
 Response:
 
 [
@@ -63,7 +63,7 @@ Response:
         "rec_name": "ABDENAGO  VILLAMIZAR ORTIZ"
     }
 ]
-
+```
 Nota:
 Tener en cuenta el estado de afiliación del usuario, debe estar en estado activo para que la creación de una pqr sea exitosa.
 
@@ -270,6 +270,3 @@ Response 200 (exitoso):
     "response": null,
     "state": "draft"
 }
-
-
-
