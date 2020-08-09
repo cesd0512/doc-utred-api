@@ -274,3 +274,25 @@ Response 200:
     "state": "draft"
 }
 ```
+
+#### Obtener Peticiones con limite de fecha
+
+Esta ruta retorna una lista de pqrs establecida por un limite de fechas:
+
+```
+method: POST
+
+uri: /DB/search
+
+```
+```
+Request:
+
+{
+    "model": "crm.customer_service",
+    "domain": [["cs_date", ">=", "2020-07-14 00:00:01"], ["cs_date", "<=", "2020-07-15 23:59:59"]],
+    "context": {}
+}
+```
+``` Tener en cuenta que existe un limite por defecto de 1000 registros a retornar si se desea establecer un límite añadir al objeto el parametro limit x, donde x es un número entero que define el límite de registros a extraer en la petición.
+```
